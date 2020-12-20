@@ -1,0 +1,23 @@
+:root {
+    --primary: RED;
+    --secondary: blue;
+    --tertiary: #94b1ff;
+}
+
+h3 {
+    margin-top: 138px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 15px 0;
+}
+
+.score-info {
+    background: var(--tertiary);
+    padding-left: 20px;
+    border-bottom: var(--primary) solid 4px;
+}

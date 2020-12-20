@@ -1,0 +1,101 @@
+/* UNIVERSAL STYLING */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html, 
+body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --primary: RED;
+    --secondary: blue;
+    --tertiary: black;
+}
+
+/* header styling */
+header {
+    padding: 20px;
+}
+.highScore {
+    color: var(--primary);
+}
+
+.timer {
+    float: right;
+}
+
+/* main styling */
+main {
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+main h1 {
+    margin-top: 80px;
+    padding: 20px;
+    font-size: 32px;
+}
+
+main div {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.guess-list {
+    display: flex;
+    width: 200px;
+}
+
+/* form styling */
+form {
+    margin-left: 80px;
+}
+
+.user-initials {
+    margin-right: 20px;
+    padding-left: 10px;
+    width: 10rem;
+    height: 2rem;
+    border: solid 8px var(--primary);
+    border-radius: 12px;
+    background: var(--tertiary);
+    outline: none;
+}
+
+/* styling for correct/wrong display */
+.result {
+    margin-top: 40px;
+    border-top: solid 4px var(--tertiary);
+    padding: 20px;
+}
+
+.btn {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: var(--primary);
+    border-radius: 12px;
+}
+
+.btn:hover {
+    background: var(--secondary);
+}
+
+/* media queries */
+@media screen and (max-width: 720px) {
+    main {
+        width: 100%;
+    }
+}

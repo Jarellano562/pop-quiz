@@ -214,7 +214,7 @@ var saveHighScore = function(event) {
             };
             highScores.push(highScoreObj); //THIS WILL PUSH THE OBJECT TO THE HIGHSCORES ARRAY
             localStorage.setItem("scores", JSON.stringify(highScores)); //THIS IS THE HIGHSCORES THAT IS STORED IN THE LOCAL STORAGE (CONVERSION TO STRING WITH THIS ELEMENT)
-            location.replace("/Users/Jesus/Desktop/projects/pop-quiz/highscore.html"); //THIS IS THE SECOND HTML FILE TO SAVE THE HIGH SCORES ON 
+            location.replace("./highscore.html"); //THIS IS THE SECOND HTML FILE TO SAVE THE HIGH SCORES ON 
         }
     }
 };

@@ -26,7 +26,7 @@ var loadScores = function() {  //CREATE A FUNTION TO GET AND SCORES TO THE LOCAL
 };
 
 var goToIndex = function() { //CREATING A FUNCTION THAT WILL TAKE THE USER BACK TO THE POP QUIZ 
-    location.replace("/Users/Jesus/Desktop/projects/pop-quiz/index.html");
+    location.replace("./index.html");
 };
 
 

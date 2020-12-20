@@ -44,7 +44,7 @@ main h1 {
 }
 
 main div {
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding: 20px 0;
     font-size: 18px;
@@ -70,6 +70,7 @@ form {
     border-radius: 12px;
     background: var(--tertiary);
     outline: none;
+    color: var(--primary);
 }
 
 /* styling for correct/wrong display */

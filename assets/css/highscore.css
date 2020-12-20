@@ -1,7 +1,6 @@
 :root {
     --primary: RED;
     --secondary: blue;
-    --tertiary: #94b1ff;
 }
 
 h3 {
@@ -17,7 +16,7 @@ li {
 }
 
 .score-info {
-    background: var(--tertiary);
+    background: var(--primary);
     padding-left: 20px;
     border-bottom: var(--primary) solid 4px;
 }
